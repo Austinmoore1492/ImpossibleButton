@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+body {
+  transition: all 0.8s ease;
+  background: #f0f0f0;
+  font-family: Arial;
+}
+
+#btn {
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  font-size: 1.5rem;
+  margin: 10px;
+  color: #f0f0f0;
+  background: #003b6f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.winner {
+  transition: all 1s ease;
+  color: #09c902;
+  font-size: 4rem;
+  margin: 10% auto;
+  text-align: center;
+  position: relative;
+  opacity: 0;
+}
+
+.close {
+  color: #b00000;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+  border: none;
+  background: #f0f0f0;
+}
